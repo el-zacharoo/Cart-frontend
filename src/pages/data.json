@@ -1,0 +1,18 @@
+{"sizes": [
+{
+    "id":1,
+    "size": "S",
+    "name": "Small"
+},
+{
+    "id":2,
+    "size": "M",
+    "name": "Medium"
+},
+{
+    "id":3,
+    "size": "L",
+    "name": "Large"
+}
+]
+}
