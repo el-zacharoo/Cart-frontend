@@ -27,6 +27,7 @@ export default {
             height: '100%'
         },
     },
+
     MuiButton: {
         root: {
             fontSize: '1rem',
@@ -36,10 +37,15 @@ export default {
             boxShadow: 'none',
         },
         outlinedPrimary: {
-            borderWidth: 2,
+            borderWidth: 1,
+
+
+        },
+        outlined: {
 
         }
     },
+
     MuiToolbar: {
         dense: {
             height: '1rem'

@@ -10,7 +10,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 
 import Image from '../components/classic-tee.png';
-import data from './data';
+import { Sizes } from '../components/Sizes';
+import { SizesButton } from '../components/Sizes';
 
 
 
@@ -115,7 +116,7 @@ const Products = () => {
                         <Typography color="textSecondary" variant="body1">SIZE</Typography>
                         <Typography variant="body1" className={classes.requiredField}>*</Typography>
 
-                        <Typography variant="h6" >S</Typography>
+                        <Sizes />
 
                     </Box>
                     <Box className={classes.dividerContainer} width="15rem" display="flex">
@@ -125,10 +126,13 @@ const Products = () => {
                             justify="flex-start"
                             alignItems="center"
                         >
-                            <Button variant="outlined" >yes</Button>
+
+                            <SizesButton />
+
+
                         </Grid>
                     </Box>
-                    {/* {products.map((product, i) => ( */}
+
                     <Button
                         variant="outlined"
                         className={classes.button}
@@ -141,6 +145,7 @@ const Products = () => {
             </Grid>
         </Container>
     );
+
 }
 
 export default Products;
